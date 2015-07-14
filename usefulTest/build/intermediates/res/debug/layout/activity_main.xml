@@ -1,0 +1,119 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:pagerstrip="http://schemas.android.com/com.vagrant.usefultest"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.vagrant.usefultest.MainActivity"
+    android:fitsSystemWindows="true"
+    android:clipToPadding="false">
+
+    <FrameLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.0"
+        android:visibility="gone"></FrameLayout>
+
+    <!--    <com.viewpagerindicator.TabPageIndicator
+           android:id="@+id/indicator"
+           android:layout_height="3dp"
+           android:layout_width="fill_parent"
+           android:background="@drawable/actionbar_background"
+           viewpagerIndicator:selectedColor="#FFFFFF"
+           />
+    -->
+    <include layout="@layout/toolbar"/>
+
+    <com.vagrant.usefultest.view.PagerSlidingTabStrip
+        android:id="@+id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1.0">
+
+        <android.support.v4.view.PagerTitleStrip
+            android:id="@+id/pager_title_strip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:background="#33b5e5"
+            android:paddingBottom="4dp"
+            android:paddingTop="4dp"
+            android:textColor="#fff"
+            android:visibility="gone" />
+    </android.support.v4.view.ViewPager>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@android:color/darker_gray" />
+
+    <RadioGroup
+        android:id="@+id/tab_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/tabmenu_bg"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <RadioButton
+            android:id="@+id/rb_first"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1.0"
+            android:button="@null"
+            android:checked="true"
+            android:drawableTop="@drawable/tab_selector_first"
+            android:gravity="center_horizontal|bottom"
+            android:text="@string/tab_first"
+            android:textColor="@drawable/tab_text_color_selector"
+            android:textSize="@dimen/tab_text_size" />
+
+        <RadioButton
+            android:id="@+id/rb_second"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1.0"
+            android:button="@null"
+            android:drawableTop="@drawable/tab_selector_second"
+            android:gravity="center_horizontal|bottom"
+            android:text="@string/tab_second"
+            android:textColor="@drawable/tab_text_color_selector"
+            android:textSize="@dimen/tab_text_size" />
+
+        <RadioButton
+            android:id="@+id/rb_third"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1.0"
+            android:button="@null"
+            android:drawableTop="@drawable/tab_selector_third"
+            android:gravity="center_horizontal|bottom"
+            android:text="@string/tab_third"
+            android:textColor="@drawable/tab_text_color_selector"
+            android:textSize="@dimen/tab_text_size" />
+
+        <RadioButton
+            android:id="@+id/rb_forth"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1.0"
+            android:button="@null"
+            android:drawableTop="@drawable/tab_selector_forth"
+            android:gravity="center_horizontal|bottom"
+            android:text="@string/tab_forth"
+            android:textColor="@drawable/tab_text_color_selector"
+            android:textSize="@dimen/tab_text_size" />
+    </RadioGroup>
+
+</LinearLayout><!-- From: file:/G:/workspace/AsUsefulTest/usefulTest/src/main/res/layout/activity_main.xml -->

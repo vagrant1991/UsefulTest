@@ -1,0 +1,106 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- 支持SwipeBackActivity-->
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@color/background_window</item>
+        <!-- ...and here we setting appcompat’s color theming attrs -->
+        <!--Toolbar颜色-->
+        <item name="colorPrimary">@color/toolbar_colorPrimary</item>
+        <!--状态栏颜色-->
+        <item name="colorPrimaryDark">@color/toolbar_colorPrimaryDark</item>
+        <item name="colorAccent">@color/banana</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <!--返回键样式-->
+        <!--<item name="drawerArrowStyle">@style/AppTheme.DrawerArrowToggle</item>-->
+    </style>
+    <style name="AppTheme.DrawerArrowToggle" parent="Base.Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">@android:color/white</item>
+    </style>
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <!-- 自定义的ActionBar sytle -->
+    <!--参见：https://www.google.com/design/spec/components/tabs.html#tabs-specs-->
+    <!--https://developer.android.com/intl/zh-cn/training/basics/actionbar/styling.html-->
+    <!--http://developer.android.com/intl/zh-cn/guide/topics/ui/actionbar.html-->
+    <style name="CustomActionBarTheme" parent="android:Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+        <item name="android:actionBarTabTextStyle">@style/TabTextStyle</item>
+        <item name="android:actionMenuTextColor">@color/actionbar_text</item>
+        <item name="android:actionBarDivider">@null</item>
+        <!-- 不推荐使用通过selector动画切换的方式切换 actionbar tab，参考viewpagerindicator（不推荐，定制复杂）, PagerSlidingTabStrip -->
+        <!--  <item name="android:actionBarTabStyle">@style/MyActionBarTabs</item> -->
+        <!-- Support library compatibility -->
+        <item name="actionBarStyle">@style/MyActionBar</item>
+        <item name="actionBarTabTextStyle">@style/TabTextStyle</item>
+        <item name="actionMenuTextColor">@color/actionbar_text</item>
+    </style>
+
+    <!-- general styles for the action bar -->
+    <style name="MyActionBar" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:titleTextStyle">@style/TitleTextStyle</item>
+        <item name="android:background">@color/actionbar_background</item>
+        <item name="android:backgroundStacked">@color/actionbar_background</item>
+        <item name="android:actionBarTabTextStyle">@style/TabTextStyle</item>
+        <!--   <item name="android:backgroundSplit">@drawable/actionbar_background</item>-->
+        <!-- Support library compatibility -->
+        <item name="titleTextStyle">@style/TitleTextStyle</item>
+        <item name="background">@color/actionbar_background</item>
+        <item name="backgroundStacked">@color/actionbar_background</item>
+        <!--<item name="backgroundSplit">@drawable/actionbar_background</item>-->
+    </style>
+
+    <!-- action bar title text -->
+    <style name="TitleTextStyle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/actionbar_text</item>
+    </style>
+
+    <!-- action bar tab text -->
+    <style name="TabTextStyle" parent="@android:style/Widget.Holo.ActionBar.TabText">
+        <item name="android:textColor">@drawable/actionbar_tab_text_selector</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <!-- ActionBar tabs styles -->
+    <style name="MyActionBarTabs" parent="@android:style/Widget.Holo.ActionBar.TabView">
+
+        <!-- tab indicator -->
+        <!--  <item name="android:background">@drawable/actionbar_tab_indicator</item> -->
+    </style>
+
+
+
+    <!-- DropDownListView-->
+    <style name="drop_down_list_header_progress_bar_style">
+        <item name="android:minHeight">@dimen/drop_down_list_header_progress_bar_height</item>
+        <item name="android:maxHeight">@dimen/drop_down_list_header_progress_bar_height</item>
+    </style>
+
+    <style name="drop_down_list_footer_progress_bar_style">
+        <item name="android:minHeight">@dimen/drop_down_list_footer_progress_bar_height</item>
+        <item name="android:maxHeight">@dimen/drop_down_list_footer_progress_bar_height</item>
+    </style>
+
+    <style name="drop_down_list_header_font_style">
+        <item name="android:textColor">@color/drop_down_list_header_font_color</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+    </style>
+
+    <style name="drop_down_list_header_second_font_style">
+        <item name="android:textColor">@color/drop_down_list_header_second_font_color</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+    </style>
+
+    <style name="drop_down_list_footer_font_style">
+        <item name="android:textColor">@color/drop_down_list_footer_font_color</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+    </style>
+
+</resources>

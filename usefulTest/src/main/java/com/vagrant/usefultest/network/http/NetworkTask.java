@@ -1,0 +1,59 @@
+package com.vagrant.usefultest.network.http;
+
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import android.os.AsyncTask;
+
+
+/**
+ * 通过AsyncTask封装的一个网络请求工具类, 返回结果通过回调函数返回,通过execute函数调用，第一个参数为请求类型， 第二个为服务器地址，第三个为string类型请求参数
+ * @author vagrant QQ:513302092
+ *
+ * @date 创建时间: 2015年4月27日
+ */
+public class NetworkTask extends AsyncTask<String, Void, String>{
+
+	private stringResponseListener stringListener;
+	private jsonResponseListener jsonListener;
+	public static String GET = "get";
+	public static String POST = "post";
+	public String response;
+	
+	@Override
+	protected String doInBackground(String... params) {
+		if (params[0].equals(POST)) {
+			response = HttpUtils.postDataWithHttpURLConnection(params[1], params[2]);
+		} else if (params[0].equals(GET)) {
+			response = HttpUtils.postDataWithHttpClient(params[1], params[2]);
+		}
+		return response;
+	}
+
+	@Override
+	protected void onPostExecute(String result) {
+		stringListener.onTaskComplete(result);
+		try {
+			jsonListener.onTaskComplete(new JSONObject(result));
+		} catch (JSONException e) {
+			e.printStackTrace();
+		}
+	}
+	
+	public void setStringResponseListener(stringResponseListener listener) {
+		this.stringListener = listener;
+	}
+	
+	public void setJsonResponseListener(jsonResponseListener listener) {
+		this.jsonListener = listener;
+	}
+	
+	public interface stringResponseListener {
+		abstract void onTaskComplete(String response);
+	}
+	
+	public interface jsonResponseListener {
+		abstract void onTaskComplete(JSONObject response);
+	}
+	
+}

@@ -1,0 +1,13 @@
+<RadioButton xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rb_first"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:layout_weight="1.0"
+    android:button="@null"
+    android:checked="true"
+    android:drawableTop="@drawable/tab_selector_first"
+    android:gravity="center_horizontal|bottom"
+    android:text="@string/tab_first"
+    android:textColor="@drawable/tab_text_color_selector"
+    android:textSize="@dimen/tab_text_size" /><!-- From: file:/G:/workspace/AsUsefulTest/usefulTest/src/main/res/layout/pagerslidingstrip_radiotab1.xml -->

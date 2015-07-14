@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="tabmenu_bg">#FFFFFF</drawable>
+    <drawable name="tabmenu_checked">#3073CE</drawable>
+    <drawable name="tabmenu_unchecked">#666666</drawable>
+    <color name="actionbar_background">#607D8B</color>
+    <drawable name="tab_unselected">#607D8B</drawable>
+    <drawable name="tab_selected">#FFFFFF</drawable>
+    <drawable name="tab_unselected_pressed">#AAAAAA</drawable>
+    <drawable name="tab_selected_pressed">#DDDDDD</drawable>
+    <color name="actionbar_text">#FFFFFF</color>
+    <color name="actionbar_tabtext_selected_color">#FFFFFFFF</color>
+    <color name="actionbar_tabtext_unselected_color">#B3FFFFFF</color>
+    <color name="background_tab_pressed">#B3607D85</color>
+    <color name="background_tab_unpressd">#607D85</color>
+
+
+    <color name="psts_background_tab_pressed">#1AFFFFFF</color>
+    <color name="psts_background_tab_pressed_ripple">#AAFFFFFF</color>
+
+    <color name="background_window">#FFE5E5E5</color>
+    <color name="green">#689F38</color>
+    <color name="toolbar_colorPrimaryDark">#303f9f</color>
+    <color name="toolbar_colorPrimary">#3f51b5</color>
+    <color name="greenDark">#3E5F22</color>
+    <color name="banana">#FFCC00</color>
+
+    <!-- DropDownListView-->
+    <!-- drop down list header font color -->
+    <color name="drop_down_list_header_font_color">#000000</color>
+    <!-- drop down list header second font color -->
+    <color name="drop_down_list_header_second_font_color">#000000</color>
+    <!-- drop down list footer font color -->
+    <color name="drop_down_list_footer_font_color">#000000</color>
+</resources>

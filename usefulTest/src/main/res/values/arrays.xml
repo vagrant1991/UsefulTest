@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="drop_menu">
+        <item>选项一</item>
+        <item>选项二</item>
+        <item>选项三</item>
+        <item>选项四</item>
+    </string-array>
+    <string-array name="drawer_menu_item">
+        <item>菜单一</item>
+        <item>菜单二</item>
+        <item>菜单三</item>
+        <item>菜单四</item>
+        <item>菜单五</item>
+        <item>菜单六</item>
+        <item>菜单七</item>
+
+    </string-array>
+
+
+</resources>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="G:\workspace\AsUsefulTest\libs\swipebacklayoutlibrary.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1a8eeab653cb77bec95a27b48730235509e8e1b1">
+        <dex dex="G:\workspace\AsUsefulTest\usefulTest\build\intermediates\pre-dexed\debug\swipebacklayoutlibrary-0fc689dec1a70f3ffa162721104fab6577564e0a.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator.DS-20150619YWVB\.gradle\caches\modules-2\files-2.1\com.mcxiaoke.volley\library\1.0.16\d8f5b9114ebe0f76de7fbf55e950540959ce4ff8\library-1.0.16.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d8f5b9114ebe0f76de7fbf55e950540959ce4ff8">
+        <dex dex="G:\workspace\AsUsefulTest\usefulTest\build\intermediates\pre-dexed\debug\library-1.0.16-ccebf78c865742993e7b0152ca7b331fe1a97094.jar" />
+    </item>
+    <item
+        jar="G:\workspace\AsUsefulTest\usefulTest\build\intermediates\exploded-aar\com.facebook.fresco\drawee\0.5.2\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="668c66ef994fec47f1861ea185fe6aa205205f72">
+        <dex dex="G:\workspace\AsUsefulTest\usefulTest\build\intermediates\pre-dexed\debug\classes-b58ea09408e4248ee70cb4b542712796fbbc08ec.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator.DS-20150619YWVB\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp\2.4.0\40340c0748190fe897baf7bffbc1b282734294e5\okhttp-2.4.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="40340c0748190fe897baf7bffbc1b282734294e5">
+        <dex dex="G:\workspace\AsUsefulTest\usefulTest\build\intermediates\pre-dexed\debug\okhttp-2.4.0-496e480760764a3e6ce70213f3b5d25ee18826b0.jar" />
+    </item>
+    <item
+        jar="G:\workspace\AsUsefulTest\usefulTest\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="G:\workspace\AsUsefulTest\usefulTest\build\intermediates\pre-dexed\debug\classes-507d61ae0dec412ee8426a7865996df982827143.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator.DS-20150619YWVB\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="G:\workspace\AsUsefulTest\usefulTest\build\intermediates\pre-dexed\debug\library-2.4.0-694c0266d8be9cb70a3e0b5b14c45056207d06b8.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator.DS-20150619YWVB\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.3.1\ecb6e1f8e4b0e84c4b886c2f14a1500caf309757\gson-2.3.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="G:\workspace\AsUsefulTest\usefulTest\build\intermediates\pre-dexed\debug\gson-2.3.1-a11235c7987f7d79d8f34949c609ae4fe56e02b8.jar" />
+    </item>
+    <item
+        jar="G:\workspace\AsUsefulTest\libs\httpmime-4.3.3.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e02368d7b56c0c376f227378a4f77de62864d020">
+        <dex dex="G:\workspace\AsUsefulTest\usefulTest\build\intermediates\pre-dexed\debug\httpmime-4.3.3-747232e93df265155b357a5619baacbd9d75e15c.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator.DS-20150619YWVB\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="G:\workspace\AsUsefulTest\usefulTest\build\intermediates\pre-dexed\debug\picasso-2.5.2-8a762608f82a98898d4965f4a4ad98e9bb4bb66c.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator.DS-20150619YWVB\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.4.0\5b72bf48563ea8410e650de14aa33ff69a3e8c35\okio-1.4.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="5b72bf48563ea8410e650de14aa33ff69a3e8c35">
+        <dex dex="G:\workspace\AsUsefulTest\usefulTest\build\intermediates\pre-dexed\debug\okio-1.4.0-d30a0ba5b73d95b219e8cf08efa983c5821a7ea4.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator.DS-20150619YWVB\.gradle\caches\modules-2\files-2.1\com.readystatesoftware.systembartint\systembartint\1.0.3\de4f7404e2f58d8f6e83cb1e85d0c2d6c2987287\systembartint-1.0.3.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="de4f7404e2f58d8f6e83cb1e85d0c2d6c2987287">
+        <dex dex="G:\workspace\AsUsefulTest\usefulTest\build\intermediates\pre-dexed\debug\systembartint-1.0.3-28a1f3c4b617f3d192f965e2aa558caf7e56696c.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator.DS-20150619YWVB\.gradle\caches\modules-2\files-2.1\com.loopj.android\android-async-http\1.4.7\cd78109020f9ec803ef4e652c17ee4615b03e20a\android-async-http-1.4.7.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="cd78109020f9ec803ef4e652c17ee4615b03e20a">
+        <dex dex="G:\workspace\AsUsefulTest\usefulTest\build\intermediates\pre-dexed\debug\android-async-http-1.4.7-5cfd7357a39a7142a582a1913f0608e01606fbce.jar" />
+    </item>
+    <item
+        jar="G:\workspace\AsUsefulTest\usefulTest\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="G:\workspace\AsUsefulTest\usefulTest\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-79ca9dda227211e3d87fe7a1250ee0191d275818.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator.DS-20150619YWVB\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp-urlconnection\2.4.0\a0c195f14cefc7597e0bebf22c3e7b43920dcf4\okhttp-urlconnection-2.4.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0a0c195f14cefc7597e0bebf22c3e7b43920dcf4">
+        <dex dex="G:\workspace\AsUsefulTest\usefulTest\build\intermediates\pre-dexed\debug\okhttp-urlconnection-2.4.0-8cce137e99374e93002067687bf098bfe1473b31.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator.DS-20150619YWVB\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="G:\workspace\AsUsefulTest\usefulTest\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-f42ee7e5a7d97cfe667687c7ccba52249fc7ccd2.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator.DS-20150619YWVB\.gradle\caches\modules-2\files-2.1\com.nostra13.universalimageloader\universal-image-loader\1.9.4\dd9eeb557650c4ad7394df23f0f5cf27a7cfc697\universal-image-loader-1.9.4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="dd9eeb557650c4ad7394df23f0f5cf27a7cfc697">
+        <dex dex="G:\workspace\AsUsefulTest\usefulTest\build\intermediates\pre-dexed\debug\universal-image-loader-1.9.4-7799196331ea48fab9f9525aaa38f2361f4c573a.jar" />
+    </item>
+    <item
+        jar="G:\workspace\AsUsefulTest\usefulTest\build\intermediates\exploded-aar\com.facebook.fresco\fbcore\0.5.2\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="7ec8bddbe9ea6919c141bbca6986c5499e049461">
+        <dex dex="G:\workspace\AsUsefulTest\usefulTest\build\intermediates\pre-dexed\debug\classes-dd76bcd3d6e062c834cce5ba776741d660840dc0.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator.DS-20150619YWVB\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-android\1.1.4\129874135e6081269ace2312092031558865de12\bolts-android-1.1.4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="129874135e6081269ace2312092031558865de12">
+        <dex dex="G:\workspace\AsUsefulTest\usefulTest\build\intermediates\pre-dexed\debug\bolts-android-1.1.4-5e7906b7a415221fb90ad070fc494a17565cec5a.jar" />
+    </item>
+    <item
+        jar="G:\workspace\AsUsefulTest\usefulTest\build\intermediates\exploded-aar\com.facebook.fresco\fresco\0.5.2\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="309967f02af11bd65974c8bf6a783994d04c25c9">
+        <dex dex="G:\workspace\AsUsefulTest\usefulTest\build\intermediates\pre-dexed\debug\classes-6d2cb2a3b159bdcf00f2b65e70666adad3b99931.jar" />
+    </item>
+    <item
+        jar="G:\workspace\AsUsefulTest\usefulTest\build\intermediates\exploded-aar\in.srain.cube\ultra-ptr\1.0.10\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f7aa9a64408679b54260b859ae8eb723b69ecd30">
+        <dex dex="G:\workspace\AsUsefulTest\usefulTest\build\intermediates\pre-dexed\debug\classes-355d94e4722f40946f70e7bb784824aa461759c2.jar" />
+    </item>
+    <item
+        jar="G:\workspace\AsUsefulTest\usefulTest\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline\0.5.2\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="cd611c5cbb4dec30ebd4ebea227eacbc7c3379c2">
+        <dex dex="G:\workspace\AsUsefulTest\usefulTest\build\intermediates\pre-dexed\debug\classes-1feb4fb81ff41de7e35a615b19b6f0345d80b073.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator.DS-20150619YWVB\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.6.0\a7537446a030da8eb0da4c71424d16c2589f6c4a\glide-3.6.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a7537446a030da8eb0da4c71424d16c2589f6c4a">
+        <dex dex="G:\workspace\AsUsefulTest\usefulTest\build\intermediates\pre-dexed\debug\glide-3.6.0-c1830e212bb4afc32dc71a5ceb88bee3e67c1e70.jar" />
+    </item>
+    <item
+        jar="G:\workspace\AsUsefulTest\usefulTest\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="G:\workspace\AsUsefulTest\usefulTest\build\intermediates\pre-dexed\debug\classes-34488694ea7ae984dd9e626043597afb761832cd.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator.DS-20150619YWVB\.gradle\caches\modules-2\files-2.1\com.alibaba\fastjson\1.2.6\b74bde9cceb2f9ec1077a9c7c3a007c251531ba6\fastjson-1.2.6.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b74bde9cceb2f9ec1077a9c7c3a007c251531ba6">
+        <dex dex="G:\workspace\AsUsefulTest\usefulTest\build\intermediates\pre-dexed\debug\fastjson-1.2.6-5fb03e2fcd4b5c295c69df2867b9c49714152e96.jar" />
+    </item>
+
+</items>

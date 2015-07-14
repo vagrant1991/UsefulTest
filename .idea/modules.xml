@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AsUsefulTest.iml" filepath="$PROJECT_DIR$/AsUsefulTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/usefulTest/usefulTest.iml" filepath="$PROJECT_DIR$/usefulTest/usefulTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/viewpagerIndicatorlibrary/viewpagerIndicatorlibrary.iml" filepath="$PROJECT_DIR$/viewpagerIndicatorlibrary/viewpagerIndicatorlibrary.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.vagrant.usefultest.MainActivity"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_search"
+        android:actionViewClass="android.widget.SearchView"
+        android:icon="@drawable/ic_action_search"
+        app:showAsAction="ifRoom|collapseActionView"
+        android:title="@string/action_bar_search"/>
+    <!-- http://stackoverflow.com/questions/8614293/android-get-view-reference-to-a-menu-item -->
+    <item
+        android:id="@+id/action_overflow"
+        android:icon="@drawable/ic_action_overflow"
+        app:showAsAction="always"
+        android:title="@string/action_bar_overflow"/>
+</menu><!-- From: file:/G:/workspace/AsUsefulTest/usefulTest/src/main/res/menu/actionbar.xml -->
